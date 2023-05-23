@@ -117,8 +117,8 @@ def make_out_str(a_list):
 
 # Comparing recent individuals' vcfs against the HETPOS file created above
 
-hetpath='/domus/h1/jamesm/Tiina_collab/anchor_method/DIR_anchorind_hetcounts_perchr'
-vcf_path='/crex/proj/snic2020-2-10/uppstore2018169/private/MERGE_FILES/ALLSITE_FILES/vcf_files/PER_CHR_VCFS'
+hetpath='/domus/h1/anchor_method/DIR_anchorind_hetcounts_perchr'
+vcf_path='/crex/proj/snic2020/private/vcf_files/PER_CHR_VCFS'
 
 #Throw an error unless you have at least two arguments to command line
 if len(sys.argv)<4:
