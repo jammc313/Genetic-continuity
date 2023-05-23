@@ -69,8 +69,8 @@ def check_if_ok_and_get_var_form(anc_nt,ref_nt,alt_nt):
     return ''
 
 #############################################################################
-ancPath='/proj/snic2020-2-10/private/Analyses/Matjes_River/per_chr_vcfs'
-vcf_path='/proj/snic2020-2-10/uppstore2018169/nobackup/private/EESA_REMERGE/MERGE_FILES/ALLSITE_FILES/vcf_files/PER_CHR_VCFS'
+ancPath='/proj/snic2020/private/Analyses/per_chr_vcfs'
+vcf_path='/proj/snic2020/nobackup/private/ALLSITE_FILES/vcf_files/PER_CHR_VCFS'
 
 #Throw an error unless you have at least two arguments to command line
 if len(sys.argv)<3:
