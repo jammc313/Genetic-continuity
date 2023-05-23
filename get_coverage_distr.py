@@ -67,8 +67,8 @@ def make_out_str(a_list):
         b_str+=str(x)+','
     return b_str[:-1]
 	
-ancPath='/proj/snic2020-2-10/private/Analyses/Matjes_River/per_chr_vcfs'
-vcf_path='/proj/snic2020-2-10/uppstore2018169/nobackup/private/EESA_REMERGE/MERGE_FILES/ALLSITE_FILES/vcf_files/PER_CHR_VCFS'
+ancPath='/proj/snic2020/private/Analyses/per_chr_vcfs'
+vcf_path='/proj/snic2020/ALLSITE_FILES/vcf_files/PER_CHR_VCFS'
 
 arg_list=sys.argv
 the_chr=arg_list[1]
