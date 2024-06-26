@@ -2,11 +2,7 @@
 <img src="anchor_icon.png" alt="anchor" width="200">
 This repository contains a collection of notebooks and scripts used in a project investigating genetic continuity among temporally distributed genomes.
 
-\
-
 Included in Simulations/ are notebooks for running msprime simulations for various demographic models and to calculate anchor statistics and f-statistics on the resulting dataset.
-
-\
 
 Included in Anchor_test/ is a pipeline for running the Anchor test; a novel test for genetic continuity, with empirical datasets.
 
