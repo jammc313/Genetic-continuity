@@ -2,9 +2,12 @@
 <img src="anchor_icon.png" alt="anchor" width="200">
 This repository contains a collection of notebooks and scripts used in a project investigating genetic continuity among temporally distributed genomes.
 
-Included in Simulations/ are notebooks for running msprime simulations for various demographic models and to calculate anchor statistics and f-statistics on the resulting dataset.
+Included in Simulations/ are scripts for running msprime simulations for various demographic models.
+Simulation_set_1: demonstrates that polymorphic datasets simulated under a demographic model of population-specific drift, and a model of historical admixture, can produce very similar summary statistics (Patterson's f2 and PCA coordinates).
+Simulation_set_2: simulate data under a model of population specific drift and a model of historical admixture. Plot FST matrices for resulting data and calculate the anchor statistic for each dataset. Includes an investigation of the sensitivity of the approach to limited data quality and quantity. These scripts also contain functions which take "perfect" simulated and introduce a genotyping error and limited coverages, and then down-sample the resulting dataset to subsets of anchor sites. 
+Simulation_set_3: Scripts simulating under a model of historical admixture, and studying the power of the anchor approach to estimate the proportion of admixture from an unsampled "Ghost" population. Three parameters are allowed to vary: the admixture proportion, the divergence time of the admixing population, and the amount of drift separating the two individuals chosen as anchors.  
 
-Included in Anchor_test/ is a pipeline for running the Anchor test; a novel test for genetic continuity, with empirical datasets.
+Included in Anchor_test/ is a pipeline for running the Anchor test on empirical data; a novel test for discriminating population continuity from historical admixture.
 
 ## Author
 James McKenna (james.andrew.mckenna@hi.no) \
