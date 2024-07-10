@@ -1,5 +1,7 @@
 # Anchor test of population continuity
+<p align="center">
 <img src="anchor_icon.png" alt="anchor" width="200">
+</p>
 This repository contains a collection of notebooks and scripts used in a project investigating genetic continuity among temporally distributed genomes.
 
 Included in Simulations/ are scripts for running msprime simulations for various demographic models.
